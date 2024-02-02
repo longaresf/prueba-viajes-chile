@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Open Sans';
+}
+
+.logo{
+    width: 2rem;
+}
+
+.tarjeta{
+    width: 16rem;
+}
+
+.contenedor-formulario{
+    height:30rem;
+}
+.ancho-formulario{
+    max-width:40rem;
+}
+
+footer a{
+text-decoration: none;
+}
