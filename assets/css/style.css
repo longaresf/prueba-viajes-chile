@@ -11,11 +11,9 @@ html {
 .text-just{
     text-align: justify;
 }
-.contenedor-formulario{
-    height:30rem;
-}
-.ancho-formulario{
-    max-width:40rem;
+button:hover{
+    background-color: #0a5898 !important;
+    font-weight: 700;
 }
 footer a{
 text-decoration: none;

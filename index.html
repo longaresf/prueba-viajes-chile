@@ -68,7 +68,6 @@
       </div>
     </header>
 
-    <a name="somos"></a>
     <main class="d-none d-sm-flex flex-column justify-content-center align-items-center bg-dark py-5">
         <h3 class="text-white mb-3 titulo">¿QUIENES SOMOS?</h3>
         <div class="container row border-top border-info pt-4">
@@ -135,8 +134,7 @@
         </div>
     </main>
 
-    <a name="destacados"></a>
-    <aside class="d-flex flex-column justify-content-center align-items-center bg-dark py-5">
+    <aside id="destacados" class="d-flex flex-column justify-content-center align-items-center bg-dark py-5">
         <h3 class="text-white mb-3 titulo">DESTACADOS</h3>
         <div class="container row d-flex justify-content-center border-top border-info pt-4">
             
@@ -186,19 +184,20 @@
         </div>
     </aside>
 
-    <a name="contacto"></a>
+    <section id="contacto">
     <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-dark py-5">
-        <h3 class="text-white mb-3 titulo">CONTACTO</h3>
-        
-        <form id="formulario" class="container d-flex flex-column justify-content-center align-items-center border-top border-info pt-4 contenedor-formulario">
-            <input type="text" class="col-sm form-control my-2 ancho-formulario" id="" placeholder="Nombre">
-            <input type="email" class="col-sm form-control my-2 ancho-formulario" id="" placeholder="Correo Electrónico">
-            <input type="text" class="form-control my-2 ancho-formulario" id="" placeholder="Asunto">
-            <textarea class="form-control my-2 ancho-formulario" id="exampleFormControlTextarea1" rows="7" placeholder="Mensaje"></textarea>
+        <h3 class="text-white mb-3">CONTACTO</h3>
+        <div class="container border-top border-info">
+        <form id="formulario" class="container d-flex flex-column justify-content-center align-items-center pt-4 col-6">
+            <input type="text" class="col-sm form-control my-2" id="" placeholder="Nombre">
+            <input type="email" class="col-sm form-control my-2" id="" placeholder="Correo Electrónico">
+            <input type="text" class="form-control my-2" id="" placeholder="Asunto">
+            <textarea class="form-control my-2" id="exampleFormControlTextarea1" rows="7" placeholder="Mensaje"></textarea>
             <button type="submit" class="btn btn-light my-2 bg-info text-white" data-bs-toggle="tooltip" data-bs-placement="right" title="Enviar datos">Enviar</button>
         </form>
+      </div>
     </div>
-
+  </section>
     <footer class="d-flex flex-column flex-sm-row justify-content-center align-items-center bg-info bg-gradient">
         <a href="#"  target="_blank" class="text-white"><h3 class="col-sm d-flex flex-column flex-sm-row justify-content-center align-items-center my-3 mx-5">VIAJES CHILE</a></h3>
         <div class="col-sm d-flex flex-row justify-content-center align-items-center my-3">
