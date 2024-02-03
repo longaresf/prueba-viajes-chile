@@ -15,6 +15,9 @@ button:hover{
     background-color: #0a5898 !important;
     font-weight: 700;
 }
+.carousel-item {
+    height: 50%;
+}
 footer a{
 text-decoration: none;
 }
